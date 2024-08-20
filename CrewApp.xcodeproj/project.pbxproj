@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE5CC342C743044001EF5BC /* CrewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CC332C743044001EF5BC /* CrewAppApp.swift */; };
+		3BE5CC362C743044001EF5BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CC352C743044001EF5BC /* ContentView.swift */; };
+		3BE5CC382C743045001EF5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE5CC372C743045001EF5BC /* Assets.xcassets */; };
+		3BE5CC3C2C743045001EF5BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE5CC3B2C743045001EF5BC /* Preview Assets.xcassets */; };
+		3BE5CC462C743045001EF5BC /* CrewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CC452C743045001EF5BC /* CrewAppTests.swift */; };
+		3BE5CC502C743045001EF5BC /* CrewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CC4F2C743045001EF5BC /* CrewAppUITests.swift */; };
+		3BE5CC522C743045001EF5BC /* CrewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CC512C743045001EF5BC /* CrewAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BE5CC422C743045001EF5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE5CC282C743044001EF5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE5CC2F2C743044001EF5BC;
+			remoteInfo = CrewApp;
+		};
+		3BE5CC4C2C743045001EF5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE5CC282C743044001EF5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE5CC2F2C743044001EF5BC;
+			remoteInfo = CrewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BE5CC302C743044001EF5BC /* CrewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE5CC332C743044001EF5BC /* CrewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewAppApp.swift; sourceTree = "<group>"; };
+		3BE5CC352C743044001EF5BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BE5CC372C743045001EF5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE5CC392C743045001EF5BC /* CrewApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrewApp.entitlements; sourceTree = "<group>"; };
+		3BE5CC3B2C743045001EF5BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BE5CC412C743045001EF5BC /* CrewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE5CC452C743045001EF5BC /* CrewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewAppTests.swift; sourceTree = "<group>"; };
+		3BE5CC4B2C743045001EF5BC /* CrewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE5CC4F2C743045001EF5BC /* CrewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewAppUITests.swift; sourceTree = "<group>"; };
+		3BE5CC512C743045001EF5BC /* CrewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE5CC2D2C743044001EF5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC3E2C743045001EF5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC482C743045001EF5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE5CC272C743044001EF5BC = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC322C743044001EF5BC /* CrewApp */,
+				3BE5CC442C743045001EF5BC /* CrewAppTests */,
+				3BE5CC4E2C743045001EF5BC /* CrewAppUITests */,
+				3BE5CC312C743044001EF5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE5CC312C743044001EF5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC302C743044001EF5BC /* CrewApp.app */,
+				3BE5CC412C743045001EF5BC /* CrewAppTests.xctest */,
+				3BE5CC4B2C743045001EF5BC /* CrewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE5CC322C743044001EF5BC /* CrewApp */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC332C743044001EF5BC /* CrewAppApp.swift */,
+				3BE5CC352C743044001EF5BC /* ContentView.swift */,
+				3BE5CC372C743045001EF5BC /* Assets.xcassets */,
+				3BE5CC392C743045001EF5BC /* CrewApp.entitlements */,
+				3BE5CC3A2C743045001EF5BC /* Preview Content */,
+			);
+			path = CrewApp;
+			sourceTree = "<group>";
+		};
+		3BE5CC3A2C743045001EF5BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC3B2C743045001EF5BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BE5CC442C743045001EF5BC /* CrewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC452C743045001EF5BC /* CrewAppTests.swift */,
+			);
+			path = CrewAppTests;
+			sourceTree = "<group>";
+		};
+		3BE5CC4E2C743045001EF5BC /* CrewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BE5CC4F2C743045001EF5BC /* CrewAppUITests.swift */,
+				3BE5CC512C743045001EF5BC /* CrewAppUITestsLaunchTests.swift */,
+			);
+			path = CrewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE5CC2F2C743044001EF5BC /* CrewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE5CC552C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewApp" */;
+			buildPhases = (
+				3BE5CC2C2C743044001EF5BC /* Sources */,
+				3BE5CC2D2C743044001EF5BC /* Frameworks */,
+				3BE5CC2E2C743044001EF5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrewApp;
+			productName = CrewApp;
+			productReference = 3BE5CC302C743044001EF5BC /* CrewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BE5CC402C743045001EF5BC /* CrewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE5CC582C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewAppTests" */;
+			buildPhases = (
+				3BE5CC3D2C743045001EF5BC /* Sources */,
+				3BE5CC3E2C743045001EF5BC /* Frameworks */,
+				3BE5CC3F2C743045001EF5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE5CC432C743045001EF5BC /* PBXTargetDependency */,
+			);
+			name = CrewAppTests;
+			productName = CrewAppTests;
+			productReference = 3BE5CC412C743045001EF5BC /* CrewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BE5CC4A2C743045001EF5BC /* CrewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE5CC5B2C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewAppUITests" */;
+			buildPhases = (
+				3BE5CC472C743045001EF5BC /* Sources */,
+				3BE5CC482C743045001EF5BC /* Frameworks */,
+				3BE5CC492C743045001EF5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE5CC4D2C743045001EF5BC /* PBXTargetDependency */,
+			);
+			name = CrewAppUITests;
+			productName = CrewAppUITests;
+			productReference = 3BE5CC4B2C743045001EF5BC /* CrewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE5CC282C743044001EF5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3BE5CC2F2C743044001EF5BC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3BE5CC402C743045001EF5BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BE5CC2F2C743044001EF5BC;
+					};
+					3BE5CC4A2C743045001EF5BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3BE5CC2F2C743044001EF5BC;
+					};
+				};
+			};
+			buildConfigurationList = 3BE5CC2B2C743044001EF5BC /* Build configuration list for PBXProject "CrewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE5CC272C743044001EF5BC;
+			productRefGroup = 3BE5CC312C743044001EF5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE5CC2F2C743044001EF5BC /* CrewApp */,
+				3BE5CC402C743045001EF5BC /* CrewAppTests */,
+				3BE5CC4A2C743045001EF5BC /* CrewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE5CC2E2C743044001EF5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5CC3C2C743045001EF5BC /* Preview Assets.xcassets in Resources */,
+				3BE5CC382C743045001EF5BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC3F2C743045001EF5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC492C743045001EF5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE5CC2C2C743044001EF5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5CC362C743044001EF5BC /* ContentView.swift in Sources */,
+				3BE5CC342C743044001EF5BC /* CrewAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC3D2C743045001EF5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5CC462C743045001EF5BC /* CrewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE5CC472C743045001EF5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5CC502C743045001EF5BC /* CrewAppUITests.swift in Sources */,
+				3BE5CC522C743045001EF5BC /* CrewAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE5CC432C743045001EF5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE5CC2F2C743044001EF5BC /* CrewApp */;
+			targetProxy = 3BE5CC422C743045001EF5BC /* PBXContainerItemProxy */;
+		};
+		3BE5CC4D2C743045001EF5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE5CC2F2C743044001EF5BC /* CrewApp */;
+			targetProxy = 3BE5CC4C2C743045001EF5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BE5CC532C743045001EF5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BE5CC542C743045001EF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3BE5CC562C743045001EF5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrewApp/CrewApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BE5CC572C743045001EF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrewApp/CrewApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BE5CC592C743045001EF5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrewApp";
+			};
+			name = Debug;
+		};
+		3BE5CC5A2C743045001EF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrewApp";
+			};
+			name = Release;
+		};
+		3BE5CC5C2C743045001EF5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrewApp;
+			};
+			name = Debug;
+		};
+		3BE5CC5D2C743045001EF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG72NDJU5B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maayon.CrewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE5CC2B2C743044001EF5BC /* Build configuration list for PBXProject "CrewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE5CC532C743045001EF5BC /* Debug */,
+				3BE5CC542C743045001EF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE5CC552C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE5CC562C743045001EF5BC /* Debug */,
+				3BE5CC572C743045001EF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE5CC582C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE5CC592C743045001EF5BC /* Debug */,
+				3BE5CC5A2C743045001EF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE5CC5B2C743045001EF5BC /* Build configuration list for PBXNativeTarget "CrewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE5CC5C2C743045001EF5BC /* Debug */,
+				3BE5CC5D2C743045001EF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE5CC282C743044001EF5BC /* Project object */;
+}
